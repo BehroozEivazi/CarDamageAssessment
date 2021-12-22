@@ -8,7 +8,7 @@ from numpy import random
 from keras.callbacks import TensorBoard, ModelCheckpoint
 
 num_classes = 2
-path = 'D:/car damage detection/data1a/'
+path = 'D:/dataset pr/data1a/'
 batch_size = 20
 conv_base = Xception(include_top=False,
                      weights='imagenet',
